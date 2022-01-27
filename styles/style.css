@@ -174,7 +174,7 @@ input {
 }
 .card img {
     width: 4rem;
-    height: 4rem;
+    height: fit-content;
     border-radius: 50%;
 }
 .personal-info {
@@ -183,7 +183,7 @@ input {
 }
 .personal-info img {
     width: 4rem;
-    height: 6rem;
+    height: fit-content;
 }
 .content2 {
     background-color: var(--desaturated-blue);
@@ -259,9 +259,11 @@ footer::after {
 .footer-info div {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 .footer-info div img {
-    width: fit-content;
+    width: 1.2rem;
+    height: fit-content;
 }
 
 .footer-links {
